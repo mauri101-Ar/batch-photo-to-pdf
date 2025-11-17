@@ -61,7 +61,7 @@ python image_compiler.py [DIRECTORY_PATH] [ORIENTATION] [OPTIONS]
 
 DIRECTORY_PATH: (Required) The path to the folder containing your images.
 ORIENTATION: (Required) The page orientation:  
-    - **P** for Portrait
+    - **P** for Portrait  
     - **L** for Landscape.
 
 ### Options
@@ -137,11 +137,11 @@ Check out the [CONTRIBUTE.md](CONTRIBUTE.md) file to learn how.
 
 Here are some of the features we'd love to see implemented in the future. If any of these interest you, feel free to open an issue or start working on a pull request.
 
-* Custom Output Path and Name: This feature would give users full control over where the PDF is saved and what it's named. This would involve adding two optional arguments, --output-dir and --output-name, to override the default behavior of saving to the PDF/ folder.
-* Support for Different Page Sizes: This would allow formats other than A4 by adding a --page-size argument that accepts standard strings like Letter, Legal, A3, etc.
-* Implement "Crop Profiles" (--crop-profile): This feature would replace the current --smart-crop flag with a more powerful argument that accepts specific profiles (e.g., zoom, meet, teams). This will allow for much more reliable cropping based on the screenshot source.
-* Grid Mode: The goal is to allow users to place multiple images on a single PDF page. This could be implemented by adding an argument like --grid-size 2x2 (for 4 images) or --grid-size 1x2 (for 2 images, side-by-side). This feature will require new logic to calculate the (x, y, w, h) coordinates for each image within the page margins.
-* Package for PyPI: To make the tool easier to install and run from anywhere, this would involve adding a pyproject.toml (or setup.py) file. This would allow users to pip install the project and run it as a simple command (e.g., batchpdf /path/fotos P) instead of python image_compiler.py.
+* **Custom Output Path and Name**: This feature would give users full control over where the PDF is saved and what it's named. This would involve adding two optional arguments, --output-dir and --output-name, to override the default behavior of saving to the PDF/ folder.
+* **Support for Different Page Sizes**: This would allow formats other than A4 by adding a --page-size argument that accepts standard strings like Letter, Legal, A3, etc.
+* **Implement "Crop Profiles"** *(--crop-profile)*: This feature would replace the current --smart-crop flag with a more powerful argument that accepts specific profiles (e.g., zoom, meet, teams). This will allow for much more reliable cropping based on the screenshot source.
+* **Grid Mode**: The goal is to allow users to place multiple images on a single PDF page. This could be implemented by adding an argument like --grid-size 2x2 (for 4 images) or --grid-size 1x2 (for 2 images, side-by-side). This feature will require new logic to calculate the (x, y, w, h) coordinates for each image within the page margins.
+* **Package for PyPI**: To make the tool easier to install and run from anywhere, this would involve adding a pyproject.toml (or setup.py) file. This would allow users to pip install the project and run it as a simple command (e.g., batchpdf /path/fotos P) instead of python image_compiler.py.
 
 ## License
 
