@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-The script is run from the command line, providing a directory path, an orientation, and optional flags.
+The script is run from the command line, providing a directory path, an orientation, and optional flags.  
 
 ```bash
 python image_compiler.py [DIRECTORY_PATH] [ORIENTATION] [OPTIONS]
@@ -60,15 +60,15 @@ python image_compiler.py [DIRECTORY_PATH] [ORIENTATION] [OPTIONS]
 ### Arguments
 
 DIRECTORY_PATH: (Required) The path to the folder containing your images.
-ORIENTATION: (Required) The page orientation:
+ORIENTATION: (Required) The page orientation:  
     - **P** for Portrait
     - **L** for Landscape.
 
 ### Options
 
-**--today-only**: *(Optional)* If set, only processes images modified on the current date.
-**--smart-crop**: *(Optional)* If set, attempts to detect and crop the main presentation area, removing window borders or toolbars.
-**-h**, **--help**: Show the help message and exit.
+**--today-only**: *(Optional)* If set, only processes images modified on the current date.  
+**--smart-crop**: *(Optional)* If set, attempts to detect and crop the main presentation area, removing window borders or toolbars.  
+**-h**, **--help**: Show the help message and exit.  
 
 ## Examples
 
