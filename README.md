@@ -61,8 +61,9 @@ python image_compiler.py [DIRECTORY_PATH] [ORIENTATION] [OPTIONS]
 
 DIRECTORY_PATH: (Required) The path to the folder containing your images.  
 ORIENTATION: (Required) The page orientation:  
-    - **P** for Portrait  
-    - **L** for Landscape.
+
+- **P** for Portrait  
+- **L** for Landscape.
 
 ### Options
 
